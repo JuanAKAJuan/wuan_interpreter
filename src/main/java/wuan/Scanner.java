@@ -299,6 +299,7 @@ class Scanner {
 	/**
 	 * Check to see if the current character is a digit/number.
 	 *
+	 * @param c - A character
 	 * @return true if it is in the range of 0-9 and false if it isn't
 	 */
 	private boolean isDigit(char c) {
